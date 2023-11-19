@@ -10,8 +10,7 @@ You’ll need to take your colleague’s code, combine data from both park’s v
 
 ## Tasks
 ### Get familiar with the code
-1. 
-Welcome to the Park Service. Let’s inspect some of the code that already exists so that we can get familiar with the data we’ll be working with:
+1. Welcome to the Park Service. Let’s inspect some of the code that already exists so that we can get familiar with the data we’ll be working with:
 
 - index.ts: Contains incomplete code that a colleague put together. At the top of their code, they’re importing data and types from a couple of files. Later on in their code, they made some incomplete functions, defined some types, and began on some of the logic we can use to calculate volunteer hours.
 - tsconfig.json: Defines the rules for TypeScript to compile code into JavaScript.
@@ -70,8 +69,8 @@ Let’s take a look at the calculateHours() function.
 
 Inside the .forEach() method’s callback, we need to do two things to get a volunteer’s total hours:
 
-- 1. Make sure that the activity is verified. Volunteer hours must be verified by a park staff member to count toward a badge.
-- 2. If their activity is verified, then we need to add their hours to the hours variable.
+1. Make sure that the activity is verified. Volunteer hours must be verified by a park staff member to count toward a badge.
+2. If their activity is verified, then we need to add their hours to the hours variable.
 
 Once we have the hours from each volunteer, calculateHours() will return a list of all volunteers and their verified hours.
 
